@@ -133,7 +133,7 @@ int main(void)
     }
 
     remove_a_and_o(surname, result);
-    printf("Прізвище: %s\n", surname)
+    printf("Прізвище: %s\n", surname);
     printf("Після вилучення букв а та о: %s\n", result);
     return 0;
 }
