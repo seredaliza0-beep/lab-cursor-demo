@@ -161,8 +161,8 @@ int main(void)
         return 1;
     }
 
-    sort_line(s1, sorted1, 0);
-    sort_line(s2, sorted2, 1);
+    sort_line(s1, sorted1, 1);
+    sort_line(s2, sorted2, 0);
 
     printf("S1 за зростанням: %s\n", sorted1);
     printf("S2 за спаданням: %s\n", sorted2);
